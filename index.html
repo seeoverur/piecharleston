@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Pastries in Charleston SC - Top Bakeries & Sweet Treats</title>
+    <meta name="description" content="Discover Charleston's finest pastries from beloved local bakeries including Sweet Palm Coffee, Whelton's Bakery, and Cinnaholic.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            color: #333;
+        }
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+            color: #2c3e50;
+        }
+        .hero-section {
+            background: linear-gradient(135deg, #f5e6d3 0%, #fdf5e6 100%);
+            padding: 80px 0 60px;
+        }
+        .hero-section h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+        .intro-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 2rem;
+        }
+        .bakery-card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            margin-bottom: 2rem;
+            height: 100%;
+        }
+        .bakery-card:hover {
+            transform: translateY(-5px);
+        }
+        .bakery-card h3 {
+            color: #d4a373;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .mission-statement {
+            background-color: #f8f9fa;
+            padding: 40px;
+            border-radius: 15px;
+            margin-top: 3rem;
+            text-align: center;
+        }
+        .section-spacing {
+            padding: 60px 0;
+        }
+        a {
+            color: #d4a373;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        a:hover {
+            color: #b8935f;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<!-- Navigation Bar - Add this to each page right after <body> tag -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html" style="font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 700; color: #2c3e50;">
+            Charleston Foodie Guide
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="accommodation.html">Where to Stay</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="best-eats-blog.html">Best Eats</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="local-flavor.html">Local Flavor</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<style>
+    .navbar {
+        padding: 1rem 0;
+    }
+    .navbar-brand {
+        transition: color 0.3s ease;
+    }
+    .navbar-brand:hover {
+        color: #e67e22 !important;
+    }
+    .nav-link {
+        font-weight: 500;
+        color: #2c3e50;
+        padding: 0.5rem 1rem;
+        transition: color 0.3s ease;
+    }
+    .nav-link:hover {
+        color: #e67e22;
+    }
+    .nav-link.active {
+        color: #e67e22;
+        font-weight: 600;
+    }
+</style>
+
+<body>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1>Best Pastries in Charleston SC</h1>
+                    
+                    <!-- Header Image -->
+                    <div class="header-image-container my-4">
+                        <img src="/pic1.jpg" alt="Charleston Coffee and Pastries" class="img-fluid rounded shadow" style="max-width: 800px; width: 50%;">
+                    </div>
+                    
+                    <div class="intro-text">
+                        <p>Charleston's pastry scene offers an irresistible array of flaky croissants, decadent cinnamon rolls, and artisanal treats that showcase the city's culinary excellence. From historic downtown bakeries to charming neighborhood cafés, the Holy City has become a haven for pastry lovers seeking authentic, handcrafted sweets. Whether you're craving a buttery morning pastry with your coffee or hunting for the perfect afternoon indulgence, Charleston's bakeries deliver unforgettable flavors made with local ingredients and time-honored techniques. Our mission is to guide food-loving travelers through Charleston's best culinary destinations, helping you discover the authentic tastes that make this coastal city a true gastronomic treasure.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bakeries Section -->
+    <section class="section-spacing">
+        <div class="container">
+            <div class="row">
+                <!-- Sweet Palm Coffee -->
+                <div class="col-md-6 mb-4">
+                    <div class="card bakery-card">
+                        <div class="card-body p-4">
+                            <h3>Sweet Palm Coffee</h3>
+                            <p><a href="https://www.sweetpalmcoffee.com/" target="_blank" rel="noopener">Sweet Palm Coffee</a> has earned legendary status among Charleston locals for their spectacular cinnamon rolls that are nothing short of extraordinary. These oversized, pillowy-soft masterpieces feature generous layers of cinnamon sugar swirled throughout tender dough, topped with a luscious cream cheese frosting that melts into every crevice. Each bite delivers the perfect balance of sweetness and spice, with a texture so light and fluffy it practically dissolves on your tongue. Beyond their famous cinnamon rolls, this beloved café serves exceptional coffee and creates a welcoming atmosphere that keeps customers returning day after day.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Whelton's Bakery -->
+                <div class="col-md-6 mb-4">
+                    <div class="card bakery-card">
+                        <div class="card-body p-4">
+                            <h3>Whelton's Bakery</h3>
+                            <p>A Charleston institution since 1986, Whelton's Bakery brings old-world European baking traditions to the Lowcountry with their impressive selection of authentic pastries and breads. Their almond croissants feature crispy, golden layers enveloping rich almond cream, while their fruit danishes showcase seasonal ingredients at their peak. The bakery's dedication to traditional methods and quality ingredients shines through in every bite, from their buttery pain au chocolat to their delicate fruit tarts that capture the essence of classic French patisserie.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cinnaholic -->
+                <div class="col-md-6 mb-4">
+                    <div class="card bakery-card">
+                        <div class="card-body p-4">
+                            <h3>Cinnaholic</h3>
+                            <p>Cinnaholic revolutionizes the cinnamon roll experience with their 100% vegan creations that rival any traditional bakery. Their custom-built rolls allow you to choose from dozens of frosting flavors and toppings, creating a personalized masterpiece tailored to your taste preferences. Despite being plant-based, these cinnamon rolls maintain incredible texture and flavor, proving that innovation and indulgence can coexist beautifully in the pastry world.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Brown's Court Bakery -->
+                <div class="col-md-6 mb-4">
+                    <div class="card bakery-card">
+                        <div class="card-body p-4">
+                            <h3>Brown's Court Bakery</h3>
+                            <p>Tucked away in downtown Charleston, Brown's Court Bakery crafts exquisite morning pastries that exemplify Southern hospitality and European technique. Their signature biscuits blend buttery layers with just the right amount of flakiness, while their seasonal fruit galettes showcase locally sourced produce in rustic, free-form presentations. The bakery's rotating selection ensures there's always something new to discover alongside their beloved staples that have made them a neighborhood favorite.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mission Statement -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="mission-statement">
+                        <p class="mb-0"><strong>Our mission is simple:</strong> to connect food-loving travelers with Charleston's most authentic and delicious culinary experiences. We explore every corner of this historic city to bring you insider recommendations on the best places to eat, drink, and savor the incredible flavors that make Charleston a world-class food destination.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
