@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best Websites for Charleston Dining - Breakfast, Lunch & Dinner Guide</title>
-    <meta name="description" content="Discover the top websites and resources for finding the best breakfast, lunch, and dinner spots in Charleston, SC. Your complete dining guide.">
+    <meta name="description" content="Discover the top websites and resources for finding the best breakfast, lunch, and dinner spots in Charleston, SC, plus a local favorite worth trying yourself.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
@@ -62,12 +62,23 @@
             text-decoration: none;
             font-weight: 600;
             margin-top: 1rem;
+            margin-right: 0.75rem;
             transition: background-color 0.3s ease;
         }
         .website-link:hover {
             background-color: #d35400;
             color: white;
             text-decoration: none;
+        }
+        .website-link.secondary {
+            background-color: transparent;
+            color: #16a085;
+            border: 2px solid #16a085;
+            padding: 8px 23px;
+        }
+        .website-link.secondary:hover {
+            background-color: #16a085;
+            color: white;
         }
         .meal-badge {
             display: inline-block;
@@ -79,6 +90,21 @@
             font-weight: 600;
             margin-right: 8px;
             margin-bottom: 8px;
+        }
+        .featured-card {
+            border: 2px solid #16a085;
+        }
+        .featured-tag {
+            display: inline-block;
+            background-color: #16a085;
+            color: white;
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 1rem;
         }
         .local-context {
             background-color: #e8f8f5;
@@ -158,7 +184,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
                     <h1>Best Websites for Charleston Dining Information</h1>
-                    
+
                     <!-- Header Image -->
                     <div class="header-image-container">
                         <img src="pic1.jpg" alt="Charleston Restaurant Guide Resources" class="img-fluid rounded shadow" style="max-width: 800px; width: 100%;">
@@ -174,7 +200,21 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="intro-text">
-                        <p>Finding the perfect place to eat in Charleston, South Carolina requires reliable local information. Whether you're searching for a hearty breakfast spot downtown, a waterfront lunch venue in Mount Pleasant, or an upscale dinner reservation on King Street, these trusted websites provide comprehensive dining guides that capture the city's incredible culinary landscape. From historic Charleston neighborhoods to Sullivan's Island and Folly Beach, these resources help you discover authentic Lowcountry cuisine across the entire region.</p>
+                        <p>Finding the perfect place to eat in Charleston, South Carolina requires reliable local information. Whether you're searching for a hearty breakfast spot downtown, a waterfront lunch venue in Mount Pleasant, or an upscale dinner reservation on King Street, these trusted websites provide comprehensive dining guides that capture the city's incredible culinary landscape. From historic Charleston neighborhoods to Sullivan's Island and Folly Beach, these resources help you discover authentic Lowcountry cuisine across the entire region. And if you'd rather skip the research and just eat well, we've included one local spot below that's become a go-to for breakfast and lunch downtown.</p>
+                    </div>
+
+                    <!-- Sweet Palm Coffee & Food - Featured Place to Eat -->
+                    <div class="website-card featured-card">
+                        <span class="featured-tag">A Place to Eat</span>
+                        <h3>Sweet Palm Coffee & Food</h3>
+                        <div class="mb-3">
+                            <span class="meal-badge">Breakfast</span>
+                            <span class="meal-badge">Lunch</span>
+                            <span class="meal-badge">Coffee</span>
+                        </div>
+                        <p>Sweet Palm Coffee & Food is a Charleston spot built around real, made-to-order food rather than shortcuts. The breakfast burrito is a regular order for people fueling up before a full day downtown, and the lunch menu holds its own with a chicken caesar wrap made with grilled chicken and shaved parmesan, plus a spicy Boca wrap for anyone looking for a meatless option with real flavor. Pair anything on the menu with a dirty soda for something a little sweeter. It's an easy stop if you want quality food without a long sit-down wait.</p>
+                        <a href="https://www.sweetpalmcoffee.com" target="_blank" rel="noopener" class="website-link">www.sweetpalmcoffee.com</a>
+                        <a href="https://cash.app/order/$sweetpalmcoffeellc/pickup" target="_blank" rel="noopener" class="website-link secondary">Order Pickup</a>
                     </div>
 
                     <!-- Charleston City Paper -->
